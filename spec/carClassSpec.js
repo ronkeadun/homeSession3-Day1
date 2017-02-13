@@ -1,8 +1,9 @@
+var val = require("../app/carClass.js");
 (function(){
   'use strict';
   describe("Car Class: Create a car, make it drive", function() {
 
-    it("The car should be a type of `object`, and an instance of the `Car` class", function() {
+    it("The car should be a type of 'object', and an instance of the 'Car' class", function() {
       var honda = new Car('Honda');
       expect(typeof honda).toEqual(typeof {});
       expect(honda instanceof Car).toBeTruthy();
